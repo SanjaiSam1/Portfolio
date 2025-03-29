@@ -1110,6 +1110,7 @@ section {
         width: 70%;
         height: auto;
         margin-top: 20px;
+        border-radius: 20%;
         overflow: visible;
     }
     
