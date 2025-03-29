@@ -1228,7 +1228,7 @@ section {
     
     .main-container .image {
         width: 200px; 
-        height: 200px; 
+        height: auto; 
         border-radius: 20%;
         overflow: hidden; 
     }
