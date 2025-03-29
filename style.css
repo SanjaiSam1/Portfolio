@@ -1111,7 +1111,7 @@ section {
         height: auto;
         margin-top: 20px;
         border-radius: 20%;
-        overflow: visible;
+        overflow: hidden;
     }
     
     .social-links {
@@ -1171,8 +1171,9 @@ section {
 @media (max-width: 440px) {
     .main-container .image {
         width: 80%;
-        height: 40vh;
+        height: auto;
         border-radius: 20%;
+        
     }
     
     .main-container .content {
@@ -1210,26 +1211,4 @@ section {
         justify-content: center;
     }
 }
-@media (max-width: 884px) {
-    
-    
-    .main-container .image {
-        width: 350px; 
-        height: 350px; 
-        margin-top: 20px;
-        border-radius: 20%;
-        overflow: hidden; 
-        box-shadow: 0 0 25px rgba(211, 47, 47, 0.7); 
-    }
-}
 
-@media (max-width: 440px) {
-
-    
-    .main-container .image {
-        width: 200px; 
-        height: auto; 
-        border-radius: 20%;
-        overflow: hidden; 
-    }
-}
