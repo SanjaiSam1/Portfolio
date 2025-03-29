@@ -1108,8 +1108,9 @@ section {
     
     .main-container .image {
         width: 70%;
-        height: 50vh;
+        height: auto;
         margin-top: 20px;
+        overflow: visible;
     }
     
     .social-links {
