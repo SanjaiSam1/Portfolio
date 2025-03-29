@@ -1172,6 +1172,7 @@ section {
     .main-container .image {
         width: 80%;
         height: 40vh;
+        border-radius: 20%;
     }
     
     .main-container .content {
