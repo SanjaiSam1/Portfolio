@@ -153,15 +153,20 @@ section {
 .main-container .image {
     width: 350px;
     height: 350px;
+    min-width: 350px; /* Add this to prevent shrinking */
+    min-height: 350px; /* Add this to prevent shrinking */
     border-radius: 20%;
     overflow: hidden;
     box-shadow: 0 0 25px rgba(211, 47, 47, 0.7);
+    position: relative; /* Add this for proper image positioning */
 }
 
 .main-container .image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center; /* Ensures the image is centered */
+    display: block; /* Removes any default spacing */
 }
 
 .main-container .image:hover {
@@ -1106,13 +1111,7 @@ section {
         margin-top: 30px;
     }
     
-    .main-container .image {
-        width: 70%;
-        height: auto;
-        margin-top: 20px;
-        border-radius: 20%;
-        overflow: hidden;
-    }
+    
     
     .social-links {
         justify-content: center;
@@ -1169,11 +1168,7 @@ section {
 }
 
 @media (max-width: 440px) {
-    .main-container .image {
-        width: 80%;
-        height: 40vh;
-        border-radius: 20%;
-    }
+
     
     .main-container .content {
         width: 90%;
@@ -1212,23 +1207,19 @@ section {
 }
 @media (max-width: 884px) {
     .main-container .image {
-        width: 70vw; /* Using viewport width for better responsiveness */
-        height: 70vw; /* Maintain square aspect ratio */
-        max-width: 300px; /* Limit maximum size */
-        max-height: 300px; /* Limit maximum size */
-        margin-top: 20px;
-        border-radius: 20%;
-        overflow: hidden;
-        box-shadow: 0 0 25px rgba(211, 47, 47, 0.7);
-        object-fit: cover; /* Ensure the image covers the area without distortion */
+        width: 280px;
+        height: 280px;
+        min-width: 280px; /* Consistent minimum size */
+        min-height: 280px;
+        margin: 30px auto; /* Centers the image */
     }
 }
 
 @media (max-width: 440px) {
     .main-container .image {
-        width: 60vw;
-        height: 60vw;
-        max-width: 250px;
-        max-height: 250px;
+        width: 250px;
+        height: 250px;
+        min-width: 250px;
+        min-height: 250px;
     }
 }
