@@ -1108,7 +1108,7 @@ section {
     
     .main-container .image {
         width: 70%;
-        height: auto;
+        height: 50vh;
         margin-top: 20px;
         overflow: visible;
     }
