@@ -154,7 +154,7 @@ section {
     width: 350px;
     height: 350px;
     border-radius: 20%;
-    overflow: visible;
+    overflow: hidden;
     box-shadow: 0 0 25px rgba(211, 47, 47, 0.7);
 }
 
@@ -1110,7 +1110,7 @@ section {
         width: 70%;
         height: auto;
         margin-top: 20px;
-        
+        overflow: visible;
     }
     
     .social-links {
