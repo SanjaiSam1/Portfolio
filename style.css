@@ -1210,3 +1210,25 @@ section {
         justify-content: center;
     }
 }
+@media (max-width: 884px) {
+    .main-container .image {
+        width: 70vw; /* Using viewport width for better responsiveness */
+        height: 70vw; /* Maintain square aspect ratio */
+        max-width: 300px; /* Limit maximum size */
+        max-height: 300px; /* Limit maximum size */
+        margin-top: 20px;
+        border-radius: 20%;
+        overflow: hidden;
+        box-shadow: 0 0 25px rgba(211, 47, 47, 0.7);
+        object-fit: cover; /* Ensure the image covers the area without distortion */
+    }
+}
+
+@media (max-width: 440px) {
+    .main-container .image {
+        width: 60vw;
+        height: 60vw;
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
