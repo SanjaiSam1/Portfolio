@@ -1171,9 +1171,8 @@ section {
 @media (max-width: 440px) {
     .main-container .image {
         width: 80%;
-        height: auto;
+        height: 40vh;
         border-radius: 20%;
-        
     }
     
     .main-container .content {
@@ -1211,4 +1210,3 @@ section {
         justify-content: center;
     }
 }
-
